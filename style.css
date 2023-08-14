@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+.menu {
+  margin: 50px;
+}
+.menu-item {
+  max-width: 80%;
+}
+
+.menu h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.menu .title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.menu .title .underline {
+  background-color: rgb(102, 102, 69);
+  width: 200px;
+  height: 3px;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.menu .btn-container {
+  text-align: center;
+}
+
+.menu .btn-container button {
+  color: rgb(153, 153, 123);
+  padding: 6px;
+  margin: 20px 10px;
+  border: 1px solid rgb(197, 197, 96);
+  font-size: 17px;
+  cursor: pointer;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.menu .btn-container button:hover {
+  background-color: rgb(102, 102, 69);
+  color: aliceblue;
+}
+
+.menu .section-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu-item {
+  display: flex;
+  margin: 15px 15px;
+}
+
+.menu-item img {
+  height: 130px;
+  width: 300px;
+  overflow: hidden;
+
+  border: 1px solid rgb(197, 197, 96);
+  margin: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.menu-item .item-info header {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.menu-item .item-info header .text {
+  font-size: 22px;
+  color: rgb(197, 197, 96);
+}
+
+.menu-item .item-info header .price {
+  color: rgb(197, 197, 96);
+  margin-left: 30px;
+  font-size: 22px;
+}
+
+.menu-item .item-info header .underline {
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  background-color: rgb(197, 197, 96);
+  bottom: 0;
+  margin-top: 15px;
+}
+.item-info .item-text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(12, 34, 34);
+  font-size: 20px;
+  margin-top: 10px;
+}
